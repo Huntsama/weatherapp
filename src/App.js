@@ -36,8 +36,9 @@ function App() {
           
         />
 
-        <div className="mt-2 p-4  text-center w-auto">
+        <div className="mt-2 p-4  justify-between text-center w-auto">
           <span className="text-4xl text-white ">{data.name}</span>
+          {data.sys ?<span className="text-4xl text-white ">,{data.sys.country}</span> : null }
         </div>
 
         <div className="text-center text-2xl  p-4 text-white flex justify-between">
