@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 function App() {
 
-  const [data, setData] = useState({})
-  const [location, setLocation] = useState({})
+  const [data, setData] = useState("")
+  const [location, setLocation] = useState("")
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=e21fcda9af1ae3c27f3aa4242c1d4533`
 
