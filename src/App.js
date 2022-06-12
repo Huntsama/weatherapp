@@ -20,10 +20,10 @@ function App() {
 
   }
   return (
+    <div> <h1 className="flex justify-center max-w-xs mx-auto mb-100 my-11 text-5xl font-bold leading-7 text-indigo-900 sm:text-5xl sm:truncate font-mono" >weatherapp</h1> 
 
-
-    <div className="flex  justify-center max-w-xs mt-60 mx-auto  shadow-xl rounded-xl p-5 bg-emerald-900	 ">
-
+    <div className="flex  justify-center max-w-xs  mx-auto  shadow-xl rounded-xl p-5 bg-indigo-700		 ">
+        
       <div className="text-center mt-5">
 
         {/* TO DO  fix the the return object object */}
@@ -56,7 +56,7 @@ function App() {
 
       </div>
     </div>
-
+    </div>
 
   );
 }
